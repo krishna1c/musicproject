@@ -1,0 +1,5 @@
+1st Paper: Current music recommendation systems use user preferences, song ratings, emotions and sentiments of the song. We present a recommendation system which uses genre attributes like danceability, temp, etc (you can see the attribue list in echonest api). Recommending songs on attributes like danceability, temp, etc. We shall use collaborative filtering in this paper. Technical Details: Get around 500 songs from the internet whose data is also available on echonest. Ask user to select 1 to 5 of these songs as favorite and on the basis of the data from echonest of those 1-5 songs, provide an ordering of the remaining songs based on similarity in data provided by echonest api. 
+To understand more: Read about collaborative filtering, how music recommendation systems work, how music search engine work, learn inside out of the echonest api, refer http://www.ijcse.net/docs/IJCSE14-03-06-096.pdf, https://github.com/abhishekpsen/KMeansPyEchoNest
+
+
+1) Past work: Current recommendation systems 2) Data source, echonest API and interpretation of the fields 3) The algorithm and its explanation 4) Results 5) Future work and conclusion

@@ -1,0 +1,38 @@
+LOUDNESS:
+	Extremely soft, soft, medium, loud, extemely loud
+	Ranges from -60 to 0. -60 being extremely soft.
+	Extremely soft: -60
+	Soft: -45
+	Medium: -30
+	Loud: -15
+	Extremely loud: 0
+
+SPEECHINESS:
+	> 0.66 : Speech like
+	<= 0.66 and >=0.33: contains music and speech
+	<0.33: Music
+
+Liveness: 
+	>0.8: Live
+	0.6 to 0.8: Partially live
+	0.6: Studio recordings
+
+
+Accousticness:
+	1.0 : Highly accoustic
+	0: Low accousticness
+
+Valence:
+	Positive
+	Negative
+	Neutral 
+
+Danceability:
+	1.0: Danceable
+	0.0: Not danceable
+
+Energy:
+	1 High energy
+	0.5 Medium
+	0 Low
+

@@ -6,8 +6,8 @@ config.ECHO_NEST_API_KEY = "ZQXJHQWPS4UO54AUV"
 
 from pyechonest import song
 count = 0
-fin = open('unique_tracks2.txt','r')
-fout = open('songlist.dat','w')
+fin = open('unique_tracks.txt','r')
+fout = open('songlist.dat','a+')
 for line in fin:
 	splits = line.split("<SEP>")
 	title = splits[2]	
@@ -38,6 +38,7 @@ for line in fin:
 	l.append(unicode(s.audio_summary['key']))
 	l.append(unicode(s.audio_summary['duration']))
 	l.append(unicode(s.audio_summary['loudness']))
+	l.append(unicode(s.audio_summary['valence']))
 	fout.write('\t'.join(l).encode('utf-8'))
 	fout.write('\n')
 	count = count + 1
